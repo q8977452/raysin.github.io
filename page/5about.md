@@ -5,29 +5,27 @@ permalink: /about/
 icon: heart
 type: page
 ---
-<div align="center">
-    <img src="\images\about\ProfilePicture.jpg" title="Frank Sun 孫景承" alt="Frank Sun 孫景承" height="300">
-</div>
+
 * content
 {:toc}
 
 ## **Author**
-<h3>Hi, I'm Frank Sun. 孫景承</h3>
-In 2012, I graduated from Chung Hua University where I majored in Computer Science and Information Engineering.
+<h3>Hi, I'm Ray Sin. 辛祐任</h3>
+In 2017, I graduated from National Chung Hsing University where I majored in the Department of Applied Mathematics.
+In 2019, I graduated from National Chung Hsing University where I majored in the Institute of Statistics.
 
-I've been working for CREATIDEA Company as a ASP.NET Developer.
+I've been working for  Royal Image ltd. Company as a Data Analyst.
 
-In my free time, I like singing a song, playing guitar, and listening to music.
+In my free time, I like playing softball,  ,and listening to music.
 
 ## **Skill Set**
 
-* C/C++, Visual C#
-* XML, JSON
-* HTML5, CSS3, JavaScript, jQuery
-* ASP.NET, ASP.NET MVC, LINQ
-* IIS, SQL Server2014, EntityFramework
+* Python, R, C++, Matlab
+* Tensorflow, keras
+* Git
 
 ## **Contact Me**
 
-* [Github](https://github.com/frank198978104)
-* [LinkedIn](https://www.linkedin.com/in/frank-sun-ab2472139/)
+* [Github](https://github.com/q8977452)
+* [Kaggle](https://kaggle.com/raysin)
+* [LinkedIn](https://www.linkedin.com/in/ray-sin/)
