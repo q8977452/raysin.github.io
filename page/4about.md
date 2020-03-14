@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 icon: heart
 type: page
@@ -9,8 +9,7 @@ type: page
 * content
 {:toc}
 
-## **About Me**
-Data Analyst
+;Data Analyst;
 
 ## **Experience**
 * 2019 Oct ~ Now
