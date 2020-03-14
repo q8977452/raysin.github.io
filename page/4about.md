@@ -13,7 +13,7 @@ type: page
 <h3>Hi, I'm Ray Sin. 辛祐任</h3>
 In 2017, I graduated from National Chung Hsing University with bachelor degree where I majored in Applied Mathematics.
 
-In 2019, I graduated from National Chung Hsing University with master degree where I majored in the Statistics.
+In 2019, I graduated from National Chung Hsing University with master degree where I majored in Statistics.
 
 I've been working for  Royal Image ltd. Company as a Data Analyst.
 
