@@ -11,6 +11,10 @@ type: page
 
 ## 工具
 
+* [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
+	
+	開源深度學習框架
+
 * [abc12207's Profile](https://www.nuget.org/profiles/abc12207)
 
     Creatidea Nuget 套件
