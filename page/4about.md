@@ -7,9 +7,8 @@ type: page
 ---
 
 * content
+Statistianist,Data Analyst
 {:toc}
-
-;Data Analyst;
 
 ## **Experience**
 * 2019 Oct ~ Now
