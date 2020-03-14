@@ -19,4 +19,4 @@ type: page
 
     快速鍵置社群分享
 
-{% include comments.html %}
+<!-- {% include comments.html %}-->
