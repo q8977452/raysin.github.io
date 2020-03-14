@@ -6,22 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Frank Sun Blog
+title: Ray Sin Blog
 brief-intro: on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://frank198978104.github.io" # the base hostname & protocol for your site
-description: Hello, I'm Frank. Welcome to my website. There mainly record my encountered problems and study things. If you have any problems or question, you can discuss under the article. 你好，我是 Frank Sun 孫景承 歡迎來到我的網站。 這裡主要是記錄我遇到的問題和我學習過的東西。 如果您有任何問題或疑問，可以在文章下方留言討論。
+url: "https://q8977452.github.io/" # the base hostname & protocol for your site
+description: Hello, I'm Ray. Welcome to my website. There mainly record my encountered problems and study things. If you have any problems or question, you can discuss under the article. 你好，我是 Ray Sin 辛祐任 歡迎來到我的網站。 這裡主要是記錄我遇到的問題和我學習過的東西。 如果您有任何問題或疑問，可以在文章下方留言討論。
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 # twitter_username: 
-# facebook_username: frank.sun.71619
-github_username:  frank198978104
-email: frank.sun@creatidea.com.tw
+# facebook_username: 
+github_username:  q8977452
+email: q8977452@gmail.com
 # weibo_username: 
 # zhihu_username: 
-linkedIn_username: frank-sun-ab2472139
+linkedIn_username: ray-sin
 dribbble_username:
 
 # description_footer: 本站記錄我前端之旅的沿途風景！
@@ -30,14 +30,14 @@ dribbble_username:
 # two ways to comment, only choose one, and use your own short name
 # 兩種評論插件，選一個就好了，使用自己的 short_name
 duoshuo_shortname: #hygblog
-disqus_shortname: frank-sun-blog
+disqus_shortname: ray-sin-blog
 
 # statistic analysis 統計代碼
 # 百度統計 id，將統計代碼替換為自己的百度統計id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 # baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-18589517-1 # google 分析追蹤id
+# google_analytics_id: UA-18589517-1 # google 分析追蹤id
 
 # Build settings
 markdown: kramdown
