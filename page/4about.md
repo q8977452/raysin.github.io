@@ -25,6 +25,7 @@ Statistianist,Data Analyst
 
 * Python, R, C++, Matlab
 * Tensorflow, Keras
+* Markdown, Latex
 * Linux
 * Git
 
