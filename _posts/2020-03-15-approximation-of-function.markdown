@@ -15,17 +15,17 @@ mathjax: true
 
 	* Two-term recursion formula:
 
-	![](http://latex.codecogs.com/gif.latex?T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)%20\quad%20with%20\quad%20T_0(x)=1,\quad%20T_1(x)=x)
+		![](http://latex.codecogs.com/gif.latex?T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)%20\quad%20with%20\quad%20T_0(x)=1,\quad%20T_1(x)=x)
 
 	* An orthogonal set:
 
-	![](http://latex.codecogs.com/gif.latex?\int_{-1}^1\frac{1}{\sqrt{1-x^2}}T_n(x)T_m(x)dx=)
+		![](http://latex.codecogs.com/gif.latex?\int_{-1}^1\frac{1}{\sqrt{1-x^2}}T_n(x)T_m(x)dx=)
 							
-	![](http://latex.codecogs.com/gif.latex?1.%200,%20n%20\neq%20m)
+			*![](http://latex.codecogs.com/gif.latex?0,%20n%20\neq%20m)
 				
-	![](http://latex.codecogs.com/gif.latex?2.%20\pi,%20n=m=0)
+			*![](http://latex.codecogs.com/gif.latex?\pi,%20n=m=0)
 				
-	![](http://latex.codecogs.com/gif.latex?3.%20\frac{\pi}{2},%20n=m%20\neq%200)
+			*![](http://latex.codecogs.com/gif.latex?\frac{\pi}{2},%20n=m%20\neq%200)
 	
 * Smallest Upper Bound / Smallest Maximum Error (最小的最大誤差)
 	
@@ -71,29 +71,29 @@ mathjax: true
 	
 	* Standard Form
 	
-	![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}[a_ncos(\frac{n\pi%20x}{L})+b_nsin(\frac{n\pi%20x}{L})])
+		![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}[a_ncos(\frac{n\pi%20x}{L})+b_nsin(\frac{n\pi%20x}{L})])
 
-	![](http://latex.codecogs.com/gif.latex?a_0=\frac{1}{L}\int_{-L}^{L}f(x)dx)
+			*![](http://latex.codecogs.com/gif.latex?a_0=\frac{1}{L}\int_{-L}^{L}f(x)dx)
 		
-	![](http://latex.codecogs.com/gif.latex?a_n=\frac{1}{L}\int_{-L}^{L}f(x)cos(\frac{n\pi%20x}{L})dx\quad%20for\quad%20n=1,2,3,...)
+			*![](http://latex.codecogs.com/gif.latex?a_n=\frac{1}{L}\int_{-L}^{L}f(x)cos(\frac{n\pi%20x}{L})dx\quad%20for\quad%20n=1,2,3,...)
 		
-	![](http://latex.codecogs.com/gif.latex?b_n=\frac{1}{L}\int_{-L}^{L}f(x)sin(\frac{n\pi%20x}{L})dx\quad%20for\quad%20n=1,2,3,...)
+			*![](http://latex.codecogs.com/gif.latex?b_n=\frac{1}{L}\int_{-L}^{L}f(x)sin(\frac{n\pi%20x}{L})dx\quad%20for\quad%20n=1,2,3,...)
 	
 	* Phase Angle Form
 	
-	![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}c_ncos(\frac{n\pi%20x}{L}+\delta_n))
+		![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}c_ncos(\frac{n\pi%20x}{L}+\delta_n))
 		
-	![](http://latex.codecogs.com/gif.latex?c_n=\sqrt{a_n^2+b_n^2})
+			*![](http://latex.codecogs.com/gif.latex?c_n=\sqrt{a_n^2+b_n^2})
 		
-	![](http://latex.codecogs.com/gif.latex?\delta_n=-tan^{-1}(\frac{b_n}{a_n}))
+			*![](http://latex.codecogs.com/gif.latex?\delta_n=-tan^{-1}(\frac{b_n}{a_n}))
 
 	* Complex Form
 	
-	![](http://latex.codecogs.com/gif.latex?\sum_{-\infty}^{\infty}d_ne^{in\omega_0x})
+		![](http://latex.codecogs.com/gif.latex?\sum_{-\infty}^{\infty}d_ne^{in\omega_0x})
 		
-	![](http://latex.codecogs.com/gif.latex?d_n=\int_{-L}^{L}f(x)e^{in\omega_0x}dx)
+			*![](http://latex.codecogs.com/gif.latex?d_n=\int_{-L}^{L}f(x)e^{in\omega_0x}dx)
 		
-	![](http://latex.codecogs.com/gif.latex?\omega_0=\frace{\pi}{L})
+			*![](http://latex.codecogs.com/gif.latex?\omega_0=\frace{\pi}{L})
 	
 	
 * **The Gibbs Phenomenon (Gibbs 現象)**
