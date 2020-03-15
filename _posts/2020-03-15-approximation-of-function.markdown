@@ -9,15 +9,15 @@ mathjax: true
 ## **Chebyshev Polynomials and Chebyshev Series**
 *  Chebyshev Polynomials
 	
-	1) Chebyshev's differential equation:
+	* Chebyshev's differential equation:
 
-	![](http://latex.codecogs.com/gif.latex?(1-x^2)y^{"}-xy^{'}+\lambda%20y=0%20,where%20-1%20\leq%20x%20\leq%201)
+		![](http://latex.codecogs.com/gif.latex?(1-x^2)y^{"}-xy^{'}+\lambda%20y=0%20,where%20-1%20\leq%20x%20\leq%201)
 
-	2) Two-term recursion formula:
+	* Two-term recursion formula:
 
 	![](http://latex.codecogs.com/gif.latex?T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)%20\quad%20with%20\quad%20T_0(x)=1,\quad%20T_1(x)=x)
 
-	3) An orthogonal set:
+	* An orthogonal set:
 
 	![](http://latex.codecogs.com/gif.latex?\int_{-1}^1\frac{1}{\sqrt{1-x^2}}T_n(x)T_m(x)dx=)
 							
@@ -41,9 +41,9 @@ mathjax: true
 	
 	優點:
 	
-	1 at significant savings of computational effor
+	* at significant savings of computational effor
 		
-	2 withsmallerstoragerequirementsinacomputer’smemoryforthecoefficients of the polynomials
+	* withsmallerstoragerequirementsinacomputer’smemoryforthecoefficients of the polynomials
 	
 
 ## Rational Function Approximations (有理式函數之近似)
@@ -69,7 +69,7 @@ mathjax: true
 
 * **Fourier Series**
 	
-	1) Standard Form
+	* Standard Form
 	
 	![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}[a_ncos(\frac{n\pi%20x}{L})+b_nsin(\frac{n\pi%20x}{L})])
 
@@ -79,7 +79,7 @@ mathjax: true
 		
 	![](http://latex.codecogs.com/gif.latex?b_n=\frac{1}{L}\int_{-L}^{L}f(x)sin(\frac{n\pi%20x}{L})dx\quad%20for\quad%20n=1,2,3,...)
 	
-	2) Phase Angle Form
+	* Phase Angle Form
 	
 	![](http://latex.codecogs.com/gif.latex?\frac{1}{2}a_0+\sum_{n=1}^{\infty}c_ncos(\frac{n\pi%20x}{L}+\delta_n))
 		
@@ -87,7 +87,7 @@ mathjax: true
 		
 	![](http://latex.codecogs.com/gif.latex?\delta_n=-tan^{-1}(\frac{b_n}{a_n}))
 
-	3) Complex Form
+	* Complex Form
 	
 	![](http://latex.codecogs.com/gif.latex?\sum_{-\infty}^{\infty}d_ne^{in\omega_0x})
 		
@@ -95,8 +95,9 @@ mathjax: true
 		
 	![](http://latex.codecogs.com/gif.latex?\omega_0=\frace{\pi}{L})
 	
-		* **The Gibbs Phenomenon (Gibbs 現象)**
+	
+* **The Gibbs Phenomenon (Gibbs 現象)**
 		
-			The behavior of Fourier series at jump discontinuities of the function is known as the Gibbs phenomenon.
-			It means that the peaks in neighbor of the jump discontinuities do not become smaller as N -> ∞. 
-			Instead, the peaks maintain roughly the same height, but move closer to the discontinuities as N increases.
+	The behavior of Fourier series at jump discontinuities of the function is known as the Gibbs phenomenon.
+	It means that the peaks in neighbor of the jump discontinuities do not become smaller as N -> ∞. 
+	Instead, the peaks maintain roughly the same height, but move closer to the discontinuities as N increases.
