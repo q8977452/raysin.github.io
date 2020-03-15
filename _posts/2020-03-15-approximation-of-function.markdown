@@ -93,7 +93,7 @@ mathjax: true
 		
 		1. ![](http://latex.codecogs.com/gif.latex?d_n=\int_{-L}^{L}f(x)e^{in\omega_0x}dx)
 		
-		2. ![](http://latex.codecogs.com/gif.latex?\omega_0=\frace{\pi}{L})
+		2. ![](http://latex.codecogs.com/gif.latex?\omega_0=\frac{\pi}{L})
 	
 	
 * **The Gibbs Phenomenon (Gibbs 現象)**
