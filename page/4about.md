@@ -32,5 +32,5 @@ Statistianist,Data Analyst
 ## **Contact Me**
 
 * [Github](https://github.com/q8977452)
-* [Kaggle](https://kaggle.com/raysin)
+* [Kaggle](https://kaggle.com/xinyouren1995)
 * [LinkedIn](https://www.linkedin.com/in/ray-sin/)
