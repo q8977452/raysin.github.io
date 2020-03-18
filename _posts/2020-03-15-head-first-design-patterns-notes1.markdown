@@ -96,6 +96,6 @@ mathjax: true
 
 # Reference
 
-* https://www.tenlong.com.tw/products/9789867794529
-* https://xyz.cinc.biz/2013/08/blog-post_16.html
+* [深入淺出設計模式 (Head First Design Patterns)](https://www.tenlong.com.tw/products/9789867794529?list_name=srh)
+* [XYZ的筆記本-設計模式整理列表](https://xyz.cinc.biz/2013/08/blog-post_16.html)
 
