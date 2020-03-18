@@ -32,44 +32,49 @@ mathjax: true
 
 1. 單一職責原則 (SRP：Single Responsibility Principle)
 	
-	一個類別，應該只有一個引起它變化的原因
+	* 一個類別，應該只有一個引起它變化的原因
 
 2. 開放、封閉原則 (OCP：Open Closed Principle)
 	
-	對於擴展是開放的 (open for extension)
-	對於修改是封閉的 (closed for modification)
+	* 對於擴展是開放的 (open for extension)
+	* 對於修改是封閉的 (closed for modification)
 
 3. 里氏(Liskov)代換原則 (LSP：Liskov Substitution Principle)
 	
-	子類別必須能替換父類別。
+	* 子類別必須能替換父類別。
 
 4. 介面隔離原則 (ISP：Interface Segregation Principle)
 
 5. 依賴倒轉原則 (DIP：Dependency Inversion Principle)
 	
-	抽象不應該依賴細節，細節應該依賴抽像。因為抽像相對較穩定。
-	高層模組不應該依賴低層模組，兩個都應該依賴抽像。
-	針對接口編寫程式，不要對具體實現的東西編寫程式。
+	* 抽象不應該依賴細節，細節應該依賴抽像。因為抽像相對較穩定。
+	* 高層模組不應該依賴低層模組，兩個都應該依賴抽像。
+	* 針對接口編寫程式，不要對具體實現的東西編寫程式。
 
 6. 迪米特法則 (LoD：Law of Demeter)
 	
-	最少知識原則 Principle of Least Knowledge
-	只和自己眼前的朋友交談 Only talk to your immediate friends
-	低耦合
+	* 最少知識原則 Principle of Least Knowledge
+	* 只和自己眼前的朋友交談 Only talk to your immediate friends	
+	* 低耦合
 
-	[例如]
-	郵差送來掛號信，須要蓋收件人印章。
-	一般人不會叫郵差自己進屋找印章，既浪費時間也不安全。
-	正常都是自己進屋拿，或是請其他家人幫忙拿。
-	因為不應該給郵差進屋找東西的權限、郵差也不須要知道印章放在屋內何處。
+	* [例如]
+		
+		郵差送來掛號信，須要蓋收件人印章。
+		一般人不會叫郵差自己進屋找印章，既浪費時間也不安全。
+		正常都是自己進屋拿，或是請其他家人幫忙拿。
+		因為不應該給郵差進屋找東西的權限、郵差也不須要知道印章放在屋內何處。
 
 7. 合成/聚合重覆使用原則 (CARP)(Composite/Aggregate Reuse Principle)
 	
-	多用合成/聚合，少用繼承。
-	在兩個物件有 has-a (has-parts、is-part-of)關係時 => 合成/聚合 (A has a B)
-	當兩個物件有 is-a (is-a-kind-of)關係時 => 繼承 (Superman is a kind of Person)
-	合成 (Composite)：A、B兩物件有合成關係時，表示其中一個物件消失(ex:書本)，另一個物件也會消失(ex:章節)。
-	聚合 (Aggregate)：A、B兩物件有聚合關係時，表示其中一個物件消失(ex:球隊)，另一個物件不會消失(ex:球員)。
+	* 多用合成/聚合，少用繼承。
+	
+	* 在兩個物件有 has-a (has-parts、is-part-of)關係時 => 合成/聚合 (A has a B)
+	
+	* 當兩個物件有 is-a (is-a-kind-of)關係時 => 繼承 (Superman is a kind of Person)
+	
+	* 合成 (Composite)：A、B兩物件有合成關係時，表示其中一個物件消失(ex:書本)，另一個物件也會消失(ex:章節)。
+	
+	* 聚合 (Aggregate)：A、B兩物件有聚合關係時，表示其中一個物件消失(ex:球隊)，另一個物件不會消失(ex:球員)。
 	
 ## 列表
 
