@@ -76,9 +76,11 @@ mathjax: true
 	* 當兩個物件有 is-a (is-a-kind-of)關係時 => 繼承 (Superman is a kind of Person)
 	
 	* 合成 (Composite)
+		
 		A、B兩物件有合成關係時，表示其中一個物件消失(ex:書本)，另一個物件也會消失(ex:章節)
 	
 	* 聚合 (Aggregate)
+		
 		A、B兩物件有聚合關係時，表示其中一個物件消失(ex:球隊)，另一個物件不會消失(ex:球員)
 	
 ## 列表
