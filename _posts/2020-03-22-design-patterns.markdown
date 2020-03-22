@@ -13,15 +13,19 @@ mathjax: true
 
 | 生成模式 (Creational Patterns) | 
 |  ----  |
-|Abstract|Factory|Builder|Factory Method|Prototype|Singleton|
+|抽象工廠(Abstract Factory)|建立者(Builder)|工廠方法(Factory Method)|雛形(Prototype)|獨體(Singleton)|
 
-|結構模式 (Structural Patterns)|
-|Adapter|Bridge|Composite|Decorator|Facade|Flyweight|Proxy|
+
+|結構模式(Structural Patterns)|
+|  ----  |
+|轉接器(Adapter)|橋樑(Bridge)|合成(Composite)|裝飾者(Decorator)|表象(Facade)|繩量級(Flyweight)|代理人(Proxy)|
+
 
 |行為模式 (Behavioral Patterns)|
-|Chain of Responsibility|Command|Interpreter|Iterator|
-|Mediator|Memento|Observer|State|
-|Strategy|Template Method|Visitor|
+|  ----  |
+|責任鏈(Chain of Responsibility)|命令(Command)|翻譯者(Interpreter)|反覆器(Iterator)|居間協調者(Mediator)|助記物(Memento)|
+|觀察者(Observer)|狀態(State)|策略(Strategy)|樣板方法(Template Method)|參觀者(Visitor)|
+
 
 
 # Reference
