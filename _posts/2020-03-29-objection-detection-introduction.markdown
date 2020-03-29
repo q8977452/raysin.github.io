@@ -64,3 +64,8 @@ Object Detection 是同時在學習『定位』與『分類』這兩件事情，
 		* RPN
 
 兩者主要差異在於是否需要『透過特定運算算法』來提出可能包含物件的『框 ( Region Proposal )』
+
+## Reference
+
+* [Object Detection Sliding Window](https://www.youtube.com/watch?v=5e5pjeojznk)
+* [Selective Search 原理與教學](selective)
