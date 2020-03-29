@@ -7,9 +7,8 @@ tags : 物件偵測 Classification Localization Bounding-Box-Regression One-Stag
 mathjax: true
 ---
 
-# 物件偵測(Object Detection)
-
 ## 什麼是Object Detection
+
 與一般基本的 CNN 分類器不同的是，Object Detection 能告訴你**物件**在照片中的**位置**，並同時能偵測**多個**不同的物件
 
 ## How?
