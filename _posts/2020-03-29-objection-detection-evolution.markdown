@@ -46,13 +46,13 @@ mathjax: true
 
 Fast R-CNN 解決了什麼問題？
 
-	* 原本每一個 Region Proposal 都要經過 CNN 提取特徵現在只需要將整張圖送入，速度上有很大的優勢。
+* 原本每一個 Region Proposal 都要經過 CNN 提取特徵現在只需要將整張圖送入，速度上有很大的優勢。
 	
-	* 運用Softmax 取代 SVM，並同時加入了 BBOX regression 到模型中與分類一起收斂。
+* 運用Softmax 取代 SVM，並同時加入了 BBOX regression 到模型中與分類一起收斂。
 
 Fast R-CNN 有什麼問題？
 
-	*  還是需要透過 Selective Search 提出 Region Proposal，沒辦法統整成 End-to-End model 訓練。
+*  還是需要透過 Selective Search 提出 Region Proposal，沒辦法統整成 End-to-End model 訓練。
 
 ### Faster_R-CNN
 
@@ -66,17 +66,17 @@ Fast R-CNN 有什麼問題？
 
 Faster R-CNN 解決了什麼問題？
 		
-	* 不用 Selective Search，而改用 (Region Proposal Network) 來提取proposals ，達到真正的 End-to-End
+* 不用 Selective Search，而改用 (Region Proposal Network) 來提取proposals ，達到真正的 End-to-End
 	
 Faster R-CNN 有什麼問題？
 
-	* 還是需要先提出 Region Proposal，整體而言速度受到一定的限制。
+* 還是需要先提出 Region Proposal，整體而言速度受到一定的限制。
 	
 ## One Stage
 One Stage 核心觀念-不要先浪費時間提出 Region Proposal，而是以 Default Anchor Box 取代
 
 ### YOLO系列V1-V3
-![Yolo 與 RCNN 系列的比較](https://github.com/q8977452/q8977452.github.io/tree/master/images/objection-detection-evolution-1.png)
+![Yolo 與 RCNN 系列的比較](https://raw.githubusercontent.com/q8977452/q8977452.github.io/master/images/objection-detection-evolution-1.PNG)
 
 YoloV1解決了什麼問題
 	
