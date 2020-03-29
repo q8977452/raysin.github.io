@@ -2,7 +2,7 @@
 layout: post
 title:  "Objection Detection Introduction"
 date:   2020-03-29 15:12:30 +0800
-categories: Objection Detection
+categories: Objection_Detection
 tags : 物件偵測 Classification Localization Bounding-Box-Regression One-Stage Two-Stage
 mathjax: true
 ---
