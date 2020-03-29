@@ -96,7 +96,7 @@ layout: default
                     Recent Posts
                 </div>
                 <ul class="content-ul" itemprop="headline" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
+                    {% for post in site.posts offset: 0 limit: 5  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
