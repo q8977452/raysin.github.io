@@ -77,7 +77,7 @@ mathjax: true
         return result
     ```
 * Counting Elements
-    ```pyhton
+    ```python
     def countElements(self, arr: List[int]) -> int:
         tmp = {}
         for i in arr:
