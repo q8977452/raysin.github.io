@@ -36,7 +36,8 @@ mathjax: true
 
         FirstName, LastName, City, State
 
-    * Code
+    
+	* Code
     
     ```sql
     select FirstName, LastName, City, State 
@@ -54,7 +55,8 @@ Write a SQL query to get the second highest salary from the Employee table.
         | 2  | 200    |
         | 3  | 300    |
         +----+--------+
-    * Code
+    
+	* Code
     ```sql
     SELECT DISTINCT 
         MAX(Salary) AS  SecondHighestSalary
@@ -100,7 +102,8 @@ Write a SQL query to rank scores. If there is a tie between two scores, both sho
         | 5  | 4.00  |     | 3.65  | 3    |
         | 6  | 3.65  |     | 3.50  | 4    |
         +----+-------+     +-------+------+
-    * Code
+    
+	* Code
         ```sql
         SELECT s.Score, COUNT(DISTINCT t.Score) Rank
         FROM Scores s JOIN Scores t ON s.Score <= t.Score
@@ -120,7 +123,8 @@ Write a SQL query to find all numbers that appear at least three times consecuti
         | 6  |  2  |
         | 7  |  2  |
         +----+-----+
-    * Code
+    
+	* Code
         ```sql
         SELECT DISTINCT
         l1.Num AS ConsecutiveNums
