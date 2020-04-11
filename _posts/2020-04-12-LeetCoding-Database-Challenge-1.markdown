@@ -104,11 +104,11 @@ Write a SQL query to rank scores. If there is a tie between two scores, both sho
         +----+-------+     +-------+------+
     
 	* Code
-        ```sql
-        SELECT s.Score, COUNT(DISTINCT t.Score) Rank
-        FROM Scores s JOIN Scores t ON s.Score <= t.Score
-        GROUP BY s.Id ORDER BY s.Score DESC;
-        ```
+    ```sql
+    SELECT s.Score, COUNT(DISTINCT t.Score) Rank
+    FROM Scores s JOIN Scores t ON s.Score <= t.Score
+    GROUP BY s.Id ORDER BY s.Score DESC;
+    ```
 * Consecutive Numbers (180)
 Write a SQL query to find all numbers that appear at least three times consecutively.
 
@@ -125,17 +125,17 @@ Write a SQL query to find all numbers that appear at least three times consecuti
         +----+-----+
     
 	* Code
-        ```sql
-        SELECT DISTINCT
-        l1.Num AS ConsecutiveNums
-        FROM
-            Logs l1,
-            Logs l2,
-            Logs l3
-        WHERE
-            l1.Id = l2.Id - 1
-            AND l2.Id = l3.Id - 1
-            AND l1.Num = l2.Num
-            AND l2.Num = l3.Num
-        ;
-        ```
+    ```sql
+    SELECT DISTINCT
+    l1.Num AS ConsecutiveNums
+    FROM
+       Logs l1,
+       Logs l2,
+       Logs l3
+    WHERE
+       l1.Id = l2.Id - 1
+       AND l2.Id = l3.Id - 1
+       AND l1.Num = l2.Num
+        AND l2.Num = l3.Num
+    ;
+    ```
