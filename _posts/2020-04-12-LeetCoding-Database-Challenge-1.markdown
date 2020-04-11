@@ -2,7 +2,7 @@
 layout: post
 title:  "Approximation of Function"
 date:   2020-04-12 01:26:30 +0800
-categories: Numerical_Analysis
+categories: Leetcode
 tags : Leetcode SQL Database
 mathjax: true
 ---
