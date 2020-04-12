@@ -75,7 +75,8 @@ Write a SQL query to get the Nth highest salary from the Employee table.
         | 2  | 200    |
         | 3  | 300    |
         +----+--------+
-    * Code
+    
+	* Code
     ```sql
     CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
     BEGIN
