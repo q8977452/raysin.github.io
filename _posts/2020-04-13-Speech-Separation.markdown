@@ -51,4 +51,3 @@ mathjax: true
 * [Speech Separation-李宏毅 HUNG-YI LEE](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
 * [李宏毅-Network Compression (5/6)](https://www.youtube.com/watch?v=L0TOXlNpCJ8&feature=youtu.be)
 
-https://button.like.co/q8977452
