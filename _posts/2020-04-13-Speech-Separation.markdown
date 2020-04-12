@@ -2,8 +2,8 @@
 layout: post
 title:  "Course : Deep Learning for Human Language Processing - Speech Separation"
 date:   2020-04-12 23:39:30 +0800
-categories: Leetcode
-tags : NLP, Speech Separation, TasNet
+categories: NLP
+tags : NLP Speech-Separation TasNet
 mathjax: true
 ---
 # TasNet - Time-domain Audio Separation Network

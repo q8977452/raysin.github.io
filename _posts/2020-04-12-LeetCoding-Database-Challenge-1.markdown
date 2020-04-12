@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Approximation of Function"
+title:  "Leetcode Database Challenge 1 "
 date:   2020-04-12 01:26:30 +0800
 categories: Leetcode
 tags : Leetcode SQL Database
