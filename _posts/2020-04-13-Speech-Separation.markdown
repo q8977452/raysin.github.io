@@ -49,5 +49,6 @@ mathjax: true
 * [Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation, Y Luo, 2019](https://arxiv.org/abs/1809.07454)
 * [李宏毅-Speech Separation (2/2) - TasNet](https://www.youtube.com/watch?v=G0O1A7lONSY)
 * [Speech Separation-李宏毅 HUNG-YI LEE](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
-* [李宏毅-Network Compression (5/6)
-](https://www.youtube.com/watch?v=L0TOXlNpCJ8&feature=youtu.be)
+* [李宏毅-Network Compression (5/6)](https://www.youtube.com/watch?v=L0TOXlNpCJ8&feature=youtu.be)
+
+https://button.like.co/q8977452
