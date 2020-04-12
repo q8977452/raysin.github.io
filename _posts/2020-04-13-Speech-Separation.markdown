@@ -11,11 +11,14 @@ mathjax: true
 ![](https://i.imgur.com/q59RTC7.png)
 
 * Encoder
-    * 512-d : 不一定要positive
-    ![](https://i.imgur.com/5AADpzn.png)
+    
+	* 512-d : 不一定要positive
+    
+	![](https://i.imgur.com/5AADpzn.png)
 
 * Decoder
-    * 跟Encoder互為Inverse的效果沒比較好
+    
+	* 跟Encoder互為Inverse的效果沒比較好
 
     ![](https://i.imgur.com/TnXlyBr.png)
 
