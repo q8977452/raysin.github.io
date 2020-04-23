@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30-Day LeetCoding Challenge week1"
+title:  "30-Day LeetCoding Challenge Week1"
 date:   2020-04-07 23:18:30 +0800
 categories: Leetcode
 tags : Leetcode Python
