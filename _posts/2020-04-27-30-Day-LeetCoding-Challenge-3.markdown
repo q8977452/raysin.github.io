@@ -83,7 +83,6 @@ mathjax: true
     #     if j+1<len(grid[0]) and grid[i][j+1]=='1':
     #         self.dfs(grid,i,j+1)
     ```
-
 * Minimum Path Sum
     * https://blog.csdn.net/fuxuemingzhu/article/details/82620422
     ```python
@@ -151,7 +150,6 @@ mathjax: true
 * Leftmost Column with at Least a One
     * https://blog.csdn.net/erzhushashade/article/details/105660678
     ```python
-    
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:
         dimensions = binaryMatrix.dimensions()
         n = dimensions[0]
