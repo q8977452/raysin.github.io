@@ -72,16 +72,6 @@ mathjax: true
             if nr >= 0 and nc >= 0 and nr < len(grid) and nc < len(grid[0]):
                 if grid[nr][nc] == "1":
                     self.dfs(grid, nr, nc)
-    # def dfs(self,grid,i,j):
-    #     grid[i][j] = '0'
-    #     if i-1>=0 and grid[i-1][j]=='1':
-    #         self.dfs(grid,i-1,j)
-    #     if i+1<len(grid) and grid[i+1][j]=='1':
-    #         self.dfs(grid,i+1,j)
-    #     if j-1>=0 and grid[i][j-1]=='1':
-    #         self.dfs(grid,i,j-1)
-    #     if j+1<len(grid[0]) and grid[i][j+1]=='1':
-    #         self.dfs(grid,i,j+1)
     ```
 * Minimum Path Sum
     * https://blog.csdn.net/fuxuemingzhu/article/details/82620422
