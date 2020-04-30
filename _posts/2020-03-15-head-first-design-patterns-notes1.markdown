@@ -6,6 +6,13 @@ categories: Design_Patterns
 tags : 設計守則 SOLID 設計模式 LoD CARP SRP OCP LSP ISP DIP
 mathjax: true
 ---
+* content 
+{:toc}
+Design Patterns Learning Notes1
+
+
+
+
 # 設計守則(Design Principle)
 
 ## 淺白敘述

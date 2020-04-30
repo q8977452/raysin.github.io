@@ -6,6 +6,13 @@ categories: Leetcode
 tags : Leetcode Python
 mathjax: true
 ---
+* content 
+{:toc}
+Practice Coding by 30-Day LeetCoding Challenge Week2.
+
+
+
+
 * Middle of the Linked List
     ```python
     def middleNode(self, head: ListNode) -> ListNode:

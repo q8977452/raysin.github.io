@@ -6,6 +6,13 @@ categories: NLP
 tags : NLP Speech-Separation TasNet
 mathjax: true
 ---
+* content 
+{:toc}
+Watch the NTU cource by youtube.
+
+
+
+
 # TasNet - Time-domain Audio Separation Network
 ## Architecture
 ![](https://i.imgur.com/q59RTC7.png)

@@ -1,12 +1,18 @@
 ---
 layout: post
-title:  "Leetcode Database Challenge 1 "
+title:  "Leetcode Database Challenge 1st "
 date:   2020-04-12 01:26:30 +0800
 categories: Leetcode
 tags : Leetcode SQL Database
 mathjax: true
 ---
-# Leetcode Database Challenge 1 
+* content 
+{:toc}
+Practice SQL by the problems of the LeetCode.
+
+
+
+
 * Combine Two Tables(175)
 
     Table: Person

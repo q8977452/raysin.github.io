@@ -6,6 +6,13 @@ categories: Objection_Detection
 tags : 物件偵測 One-Stage Two-Stage R-CNN Fast_R-CNN Faster_R-CNN YOLO SSD RetinaNet
 mathjax: true
 ---
+* content 
+{:toc}
+2-nd-DL-CVMarathon Learning Notes1
+
+
+
+
 ## Two Stage
 
 ### R-CNN : Regions with CNN features

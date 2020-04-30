@@ -8,6 +8,10 @@ mathjax: true
 ---
 * content 
 {:toc}
+介紹一些數值分析用的近似函數。
+
+
+
 
 ## **Chebyshev Polynomials and Chebyshev Series**
 *  Chebyshev Polynomials

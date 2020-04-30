@@ -6,6 +6,13 @@ categories: Design_Patterns
 tags : 設計守則 設計模式 生成模式 結構模式 行為模式
 mathjax: true
 ---
+* content 
+{:toc}
+Design Patterns Learning Notes2
+
+
+
+
 # 設計模式(Design Patterns)
 
 ## Patterns列表

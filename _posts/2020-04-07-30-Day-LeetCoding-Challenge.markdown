@@ -6,6 +6,13 @@ categories: Leetcode
 tags : Leetcode Python
 mathjax: true
 ---
+* content 
+{:toc}
+Practice Coding by 30-Day LeetCoding Challenge Week1.
+
+
+
+
 * Single Number
     ```python
     def singleNumber(self, nums):
