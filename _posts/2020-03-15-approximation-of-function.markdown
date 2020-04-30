@@ -6,7 +6,8 @@ categories: Numerical_Analysis
 tags : Fouerier Chebyshev Approximation Series
 mathjax: true
 ---
-* content {:toc}
+* content 
+{:toc}
 
 ## **Chebyshev Polynomials and Chebyshev Series**
 *  Chebyshev Polynomials
