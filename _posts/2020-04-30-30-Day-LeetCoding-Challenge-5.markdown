@@ -13,6 +13,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week5.
 
 
 *   Binary Tree Maximum Path Sum
+
     *   https://blog.csdn.net/qqxx6661/article/details/78484940
         * 利用self
 		
@@ -25,7 +26,6 @@ Practice Coding by 30-Day LeetCoding Challenge Week5.
             self.maxSum = float('-inf')
             self._maxPathSum(root)
             return self.maxSum
-
         def _maxPathSum(self, root):  # DFS
             if root is None:
                 return 0
