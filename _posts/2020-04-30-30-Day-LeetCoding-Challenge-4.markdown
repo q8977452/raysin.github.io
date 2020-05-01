@@ -14,7 +14,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week4.
 
 
 * Subarray Sum Equals K
-    * https://www.youtube.com/watch?v=mKXIH9GnhgU
+    * {%youtube mKXIH9GnhgU%}
     ```python
     def subarraySum(self, nums: List[int], k: int) -> int:
         n = len(nums)
