@@ -152,7 +152,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week4.
         return max(map(max, dp)) ** 2
     ```
 * First Unique Number
-    * https://www.youtube.com/watch?v=JlDd3n6GP3w
+	* {%youtube JlDd3n6GP3w%} 
     ```python
     class FirstUnique:
 
