@@ -61,7 +61,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week5.
         ```
         
 * Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
-    * {%youtube _Es-FEkjKmA%} 
+    * https://www.youtube.com/watch?v=_Es-FEkjKmA
     * [geeksforgeeks](https://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/)
         ```python
         def isValidSequence(self, root: TreeNode, arr: List[int]) -> bool:

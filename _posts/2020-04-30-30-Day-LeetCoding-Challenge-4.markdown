@@ -14,7 +14,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week4.
 
 
 * Subarray Sum Equals K
-    * {%youtube mKXIH9GnhgU%}
+    * https://www.youtube.com/watch?v=mKXIH9GnhgU
     ```python
     def subarraySum(self, nums: List[int], k: int) -> int:
         n = len(nums)
@@ -152,7 +152,7 @@ Practice Coding by 30-Day LeetCoding Challenge Week4.
         return max(map(max, dp)) ** 2
     ```
 * First Unique Number
-	* {%youtube JlDd3n6GP3w%} 
+	* https://www.youtube.com/watch?v=JlDd3n6GP3w 
     ```python
     class FirstUnique:
 
