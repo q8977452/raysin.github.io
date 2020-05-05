@@ -10,6 +10,10 @@ mathjax: true
 {:toc}
 Python data analysis package (pandas & pyspark).
 
+
+
+
+
 ## Basis
 
 |                          | Pandas                   | PySpark                                                                        |
@@ -22,6 +26,7 @@ Python data analysis package (pandas & pyspark).
 | 內存緩存                 | 單機                     | 利用persist()或cache()將轉換的RDDs保存在內存                                   |
 
 ## DataFrame
+
 |                          | Pandas                   | PySpark                                                                        |
 | ------------------------ | ------------------------ | ------------------------------------------------------------------------------ |
 | DataFrame可變性          | 可變                     | 因spark不可變，所以不可變                                                      |
@@ -34,6 +39,7 @@ Python data analysis package (pandas & pyspark).
 | 顯示 |df輸出具體內容|df不輸出具體內容, 輸出具體內容用show方法|
 
 ### 選擇或切片 
+
 ||Pandas|PySpark|
 |---|---|---|
 |First|df[0], df.ix[0]|df.first()|
@@ -44,6 +50,7 @@ Python data analysis package (pandas & pyspark).
 |Selected by location|df.iloc[ ]||
 
 ## Extract Transform Load Instructions
+
 |  |Pandas| PySpark |
 | -------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | 按col排序 | df.sort()| df.sort()|
@@ -60,6 +67,7 @@ Python data analysis package (pandas & pyspark).
 | map-reduce操作 |map(func, list), reduce(func, list)|df.map(func), df.reduce(func)|
 |map-reduce返回類型|seq|seqRDDs|
 | diff操作| 有(處理時間序列數據)| 無|
+
 * 註一
     * pd.concat() : 軸向合併 
     * df.join() : 多列合併 
