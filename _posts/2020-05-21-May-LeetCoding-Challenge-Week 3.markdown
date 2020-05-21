@@ -22,23 +22,23 @@ Practice Coding by May LeetCoding Challenge Week 3.
         4. Now, if sum == min return max
         5. Otherwise, return maximum ( max, sum - min )
     * In Practice
-	```python
-    def maxSubarraySumCircular(self, A: List[int]) -> int:
-        if len(A) == 0:
-            return 0
-        maxTotal,maxSoFar,minSoFar,minTotal,s = A[0], A[0], A[0], A[0],A[0]
-        for i in range(1, len(A)):
-            maxSoFar = max(A[i], maxSoFar + A[i])
-            maxTotal = max(maxTotal, maxSoFar)            
-            
-            minSoFar = min(A[i], minSoFar + A[i])            
-            minTotal = min(minTotal, minSoFar)            
-            s += A[i]
-        if(s == minTotal):
-            return maxTotal
-        
-        return max(s - minTotal, maxTotal)
-    ```
+		```python
+		def maxSubarraySumCircular(self, A: List[int]) -> int:
+			if len(A) == 0:
+				return 0
+			maxTotal,maxSoFar,minSoFar,minTotal,s = A[0], A[0], A[0], A[0],A[0]
+			for i in range(1, len(A)):
+				maxSoFar = max(A[i], maxSoFar + A[i])
+				maxTotal = max(maxTotal, maxSoFar)            
+				
+				minSoFar = min(A[i], minSoFar + A[i])            
+				minTotal = min(minTotal, minSoFar)            
+				s += A[i]
+			if(s == minTotal):
+				return maxTotal
+			
+			return max(s - minTotal, maxTotal)
+		```
 
 * Odd Even Linked List
     ```python
