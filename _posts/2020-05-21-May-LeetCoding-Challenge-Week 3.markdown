@@ -21,7 +21,8 @@ Practice Coding by May LeetCoding Challenge Week 3.
         3. Find total sum of the array (sum)
         4. Now, if sum == min return max
         5. Otherwise, return maximum ( max, sum - min )
-    ```python
+    * In Practice
+	```python
     def maxSubarraySumCircular(self, A: List[int]) -> int:
         if len(A) == 0:
             return 0
