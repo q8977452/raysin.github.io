@@ -15,17 +15,17 @@ Practice Coding by June LeetCoding Challenge Week 3.
 
 * Search in a Binary Search Tree
     * Recursive method
-    ```python
-    def searchBST(self, root: TreeNode, val: int) -> TreeNode:
-        if not root:
-            return None
-        if root.val == val:
-            return root
-        elif root.val < val:
-            return self.searchBST(root.right, val)
-        else:
-            return self.searchBST(root.left, val)
-    ```
+		```python
+		def searchBST(self, root: TreeNode, val: int) -> TreeNode:
+			if not root:
+				return None
+			if root.val == val:
+				return root
+			elif root.val < val:
+				return self.searchBST(root.right, val)
+			else:
+				return self.searchBST(root.left, val)
+		```
     
 * Validate IP Address
     ```python
@@ -50,58 +50,58 @@ Practice Coding by June LeetCoding Challenge Week 3.
     ```
 * Surrounded Regions
     * https://blog.csdn.net/qqxx6661/article/details/78546695
-    ```python
-    def solve(self, board: List[List[str]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        if not board or not board[0]:
-            return
-        n = len(board)
-        m = len(board[0])
-        queue = []
-        # Save all 0 of edges
-        for i in range(n):
-            for j in range(m):
-                if ((i in (0, n - 1)) or (j in (0, m - 1))) and board[i][j] == 'O':  
-                    queue.append((i, j))
-                    print (i,j)
-        # Save all 0 associated the 0 of edges
-        while queue:
-            r, c = queue.pop(0)  # i, j = r, c
-            if 0 <= r < n and 0 <= c < m and board[r][c] == 'O':
-                board[r][c] = 'M'  # M is not necessary for x 
-                if r - 1 >= 0 and board[r - 1][c] == 'O':
-                    queue.append((r - 1, c))
-                if r + 1 < n and board[r + 1][c] == 'O':
-                    queue.append((r + 1, c))
-                if c - 1 >= 0 and board[r][c - 1] == 'O':
-                    queue.append((r, c - 1))
-                if c + 1 < m and board[r][c + 1] == 'O':
-                    queue.append((r, c + 1))
-        # Update
-        for i in range(n):
-            for j in range(m):
-                if board[i][j] == 'M':
-                    board[i][j] = 'O'
-                else:
-                    board[i][j] = 'X'
-    ```
+		```python
+		def solve(self, board: List[List[str]]) -> None:
+			"""
+			Do not return anything, modify board in-place instead.
+			"""
+			if not board or not board[0]:
+				return
+			n = len(board)
+			m = len(board[0])
+			queue = []
+			# Save all 0 of edges
+			for i in range(n):
+				for j in range(m):
+					if ((i in (0, n - 1)) or (j in (0, m - 1))) and board[i][j] == 'O':  
+						queue.append((i, j))
+						print (i,j)
+			# Save all 0 associated the 0 of edges
+			while queue:
+				r, c = queue.pop(0)  # i, j = r, c
+				if 0 <= r < n and 0 <= c < m and board[r][c] == 'O':
+					board[r][c] = 'M'  # M is not necessary for x 
+					if r - 1 >= 0 and board[r - 1][c] == 'O':
+						queue.append((r - 1, c))
+					if r + 1 < n and board[r + 1][c] == 'O':
+						queue.append((r + 1, c))
+					if c - 1 >= 0 and board[r][c - 1] == 'O':
+						queue.append((r, c - 1))
+					if c + 1 < m and board[r][c + 1] == 'O':
+						queue.append((r, c + 1))
+			# Update
+			for i in range(n):
+				for j in range(m):
+					if board[i][j] == 'M':
+						board[i][j] = 'O'
+					else:
+						board[i][j] = 'X'
+		```
     
 * H-Index II
     ```python
     def hIndex(self, citations: List[int]) -> int:
-            N = len(citations)
-            l, r = 0, N - 1
-            H = 0
-            while l <= r:
-                mid = int(l + (r - l) / 2)
-                H = max(H, min(citations[mid], N - mid))
-                if citations[mid] < N - mid:
-                    l = mid + 1
-                else:
-                    r = mid - 1
-            return H
+        N = len(citations)
+        l, r = 0, N - 1
+        H = 0
+        while l <= r:
+            mid = int(l + (r - l) / 2)
+            H = max(H, min(citations[mid], N - mid))
+            if citations[mid] < N - mid:
+                l = mid + 1
+            else:
+                r = mid - 1
+        return H
     ```
     
 * Longest Duplicate Substring
