@@ -2,7 +2,7 @@
 layout: post
 title:  "The Commerce Analytics in Data Science"
 date:   2020-07-10 10:38:30 +0800
-categories: Leetcode
+categories: Data_Science
 tags : Data-Science, Analytics
 mathjax: true
 ---
