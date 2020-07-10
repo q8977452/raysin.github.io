@@ -9,8 +9,10 @@ mathjax: true
 * content 
 {:toc}
 有兩個主題:
+
 1. 定義問題-不做沒有用的專案
 2. 假說思考對資料科學家來說至關重要
+
 文末並附上資料相關工作內容
 
 
@@ -110,4 +112,4 @@ If I had only one hour to solve a problem, I would spend up to two-thirds of tha
 ## Reference
 * [Medium : 資料科學中的商業分析 1](https://medium.com/@taweihuang1/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E4%B8%AD%E7%9A%84%E5%95%86%E6%A5%AD%E5%88%86%E6%9E%90-1-%E5%AE%9A%E7%BE%A9%E5%95%8F%E9%A1%8C-%E4%B8%8D%E5%81%9A%E6%B2%92%E6%9C%89%E7%94%A8%E7%9A%84%E5%B0%88%E6%A1%88-85244acf1cb6)
 * [Medium : 資料科學中的商業分析 2](https://medium.com/@taweihuang1/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E4%B8%AD%E7%9A%84%E5%95%86%E6%A5%AD%E5%88%86%E6%9E%90-2-%E5%81%87%E8%AA%AA%E6%80%9D%E8%80%83%E5%B0%8D%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6%E4%BE%86%E8%AA%AA%E8%87%B3%E9%97%9C%E9%87%8D%E8%A6%81-6039146360e0)
-* https://www.ptt.cc/bbs/Soft_Job/M.1551945907.A.F59.html
+* [批踢踢實業坊 : 資料科學家工作分享與 AI 產業觀察](https://www.ptt.cc/bbs/Soft_Job/M.1551945907.A.F59.html)
