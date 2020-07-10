@@ -10,11 +10,11 @@ type: page
 {:toc}
 ## **Job Title**
 
-Statistianist,Data Analyst
+Probability Engineer,Statistianist,Data Analyst
 
 ## **Experience**
 * 2019 Oct ~ Now
-	* Data Analyst
+	* Probability Engineer/Data Analyst
 		* Locate at Taichung, Taiwan
 * 2017 Sep ~ 2019 Jul
 	* 中興大學 統計學研究所
