@@ -22,5 +22,7 @@ mathjax: true
 | Ch9 | 對應表|||
 | Ch10 | 建構階層資料模型|||
 
+
 ## 參考
-* [Effective SQL 中文版 | 寫出良好 SQL 的 61個具體做法](https://www.tenlong.com.tw/products/9789864764358)
+
+* [Effective SQL 中文版 - 寫出良好 SQL 的 61個具體做法](https://www.tenlong.com.tw/products/9789864764358)
