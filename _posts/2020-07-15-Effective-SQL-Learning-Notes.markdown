@@ -3,7 +3,7 @@ layout: post
 title:  "Effective SQL 中文版"
 date:   2020-07-15 22:40:30 +0800
 categories: Database
-tags : SQL, Database
+tags : SQL Database
 mathjax: true
 ---
 

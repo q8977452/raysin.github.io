@@ -3,7 +3,7 @@ layout: post
 title:  "LeetCode Course Schedule"
 date:   2020-07-19 09:16:30 +0800
 categories: Leetcode
-tags : Leetcode, Python 
+tags : Leetcode Python 
 mathjax: true
 ---
 * content 

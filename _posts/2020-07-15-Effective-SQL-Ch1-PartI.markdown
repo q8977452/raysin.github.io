@@ -3,7 +3,7 @@ layout: post
 title:  "資料模型設計 Part I"
 date:   2020-07-15 22:34:30 +0800
 categories: Database
-tags : SQL, Database
+tags : SQL Database
 mathjax: true
 ---
 * content 
