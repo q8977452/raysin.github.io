@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "資料模型設計 Part I"
+title:  "資料模型設計"
 date:   2020-09-16 11:07:30 +0800
 categories: Database
 tags : Database, SQL
