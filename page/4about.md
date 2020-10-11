@@ -13,7 +13,7 @@ type: page
 Probability Engineer,Statistianist,Data Analyst
 
 ## **Experience**
-* 2019 Oct ~ Now
+* 2019 Oct ~ 2020 Sep
 	* Probability Engineer/Data Analyst
 		* Locate at Taichung, Taiwan
 * 2017 Sep ~ 2019 Jul
