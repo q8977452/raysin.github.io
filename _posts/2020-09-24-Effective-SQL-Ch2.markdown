@@ -82,3 +82,6 @@ mathjax: true
 ## 17 知道何時使用索引中的計算結果
 * 不要濫用索引
 * 分析資料庫的預期使用以確保過濾索引只在合理的地方使用
+
+### Reference
+Effective SQL Ch1

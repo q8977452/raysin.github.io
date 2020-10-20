@@ -68,3 +68,6 @@ mathjax: true
 * 決定要複製什麼資料與複製的理由。
 * 規劃如何保持資料同步。
 * 重新撰寫查詢以使用反正規劃欄。
+
+### Reference
+Effective SQL Ch1
