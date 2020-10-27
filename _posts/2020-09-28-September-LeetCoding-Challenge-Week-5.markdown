@@ -3,7 +3,7 @@ layout: post
 title:  "September LeetCoding Challenge Week 5"
 date:   2020-09-31 20:30:30 +0800
 categories: Leetcode
-tags : Leetcode, Python 
+tags : Leetcode Python 
 mathjax: true
 ---
 * content 
