@@ -29,7 +29,7 @@ type: page
 
 	Mathematically correct strategies and information for casino games
 
-* [SLOT設計王- 老虎機設計與博弈機率計算專業網](https://ezslotdesign.com/)
+* [SLOT設計王](https://ezslotdesign.com/)
 	
 	老虎機設計與博弈機率計算專業網
  {% include comments.html %}
