@@ -39,6 +39,10 @@ type: page
 
 * [w3schools](https://www.w3schools.com/)
 
+* [Complete Think](https://rickhw.github.io/)
+
+	AWS與軟體工程學習日誌
+	
 * [正體中文版蘋果 Swift 官方教學](https://tommy60703.gitbooks.io/swift-language-traditional-chinese/content/index.html)
 
 * [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
