@@ -34,6 +34,16 @@ type: page
 	
 	角點檢測演算法
 
+## Psychology
+
+* [Thinking, Fast and Slow](https://zh.wikipedia.org/wiki/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3)
+	
+* [心流理論](https://zh.wikipedia.org/wiki/%E5%BF%83%E6%B5%81%E7%90%86%E8%AB%96)
+
+* [Skinner box](https://zh.wikipedia.org/wiki/%E6%96%AF%E9%87%91%E7%BA%B3%E7%AE%B1)
+
+* [Uncanny Valley](https://zh.wikipedia.org/wiki/%E6%81%90%E6%80%96%E8%B0%B7%E7%90%86%E8%AE%BA)
+
 
 ## Other
 
