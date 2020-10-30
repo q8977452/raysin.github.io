@@ -46,6 +46,9 @@ type: page
 
 
 ## Other
+* [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
+	
+	開源深度學習框架
 
 * [w3schools](https://www.w3schools.com/)
 
@@ -53,11 +56,11 @@ type: page
 
 	AWS與軟體工程學習日誌
 	
-* [正體中文版蘋果 Swift 官方教學](https://tommy60703.gitbooks.io/swift-language-traditional-chinese/content/index.html)
+* [淺談 golang](https://hsinyu.gitbooks.io/golang_note/content/about_golang.html)
 
-* [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
-	
-	開源深度學習框架
+* [The Swift Programming Language](https://tommy60703.gitbooks.io/swift-language-traditional-chinese/content)
+
+	正體中文版蘋果 Swift 官方教學
 
 * [abc12207's Profile](https://www.nuget.org/profiles/abc12207)
 
