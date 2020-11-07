@@ -101,7 +101,8 @@ Practice Coding by November LeetCoding Challenge Week 1.
         
 * Minimum Cost to Move Chips to The Same Position
     * 分析
-    給你一個數組，如果同為偶數或者奇數，則代價是0，否則代價為1
+    
+	給你一個數組，如果同為偶數或者奇數，則代價是0，否則代價為1
     
 	* 程式
         ```python
