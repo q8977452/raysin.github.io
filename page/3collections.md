@@ -44,8 +44,14 @@ type: page
 
 * [Uncanny Valley](https://zh.wikipedia.org/wiki/%E6%81%90%E6%80%96%E8%B0%B7%E7%90%86%E8%AE%BA)
 
+## Message Queue
+
+* [Kafka 中文文檔](https://kafka.apachecn.org/intro.html)
+
+* [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)
 
 ## Other
+
 * [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
 	
 	開源深度學習框架
