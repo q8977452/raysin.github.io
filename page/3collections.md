@@ -50,6 +50,12 @@ type: page
 
 * [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)
 
+## Golang
+
+* [淺談 golang](https://hsinyu.gitbooks.io/golang_note/content/about_golang.html)
+
+* [Go 语言设计与实现](https://draveness.me/golang/)
+
 ## Other
 
 * [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
@@ -62,8 +68,6 @@ type: page
 
 	AWS與軟體工程學習日誌
 	
-* [淺談 golang](https://hsinyu.gitbooks.io/golang_note/content/about_golang.html)
-
 * [The Swift Programming Language](https://tommy60703.gitbooks.io/swift-language-traditional-chinese/content)
 
 	正體中文版蘋果 Swift 官方教學
@@ -72,9 +76,10 @@ type: page
 
     Creatidea Nuget 套件
 
+* [UI / UX 設計白皮書 - Material Design 導讀](https://ithelp.ithome.com.tw/users/20124956/ironman/2945)
+
 * [AddToAny](https://www.addtoany.com/)
 
     快速鍵置社群分享
-
 
  {% include comments.html %}
