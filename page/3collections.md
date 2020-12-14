@@ -10,17 +10,10 @@ type: page
 {:toc}
 
 
+## Docker
 
+* [《Docker —— 從入門到實踐­》正體中文版](https://philipzheng.gitbook.io/docker_practice/)
 
-## Casino Games Learning Resources
-
-* [Wizard of Odds](https://wizardofodds.com/)
-
-	Mathematically correct strategies and information for casino games
-
-* [SLOT設計王](https://ezslotdesign.com/)
-	
-	老虎機設計與博弈機率計算專業網
 
 ## Computer Vision Learning Resources
 
@@ -55,6 +48,16 @@ type: page
 * [淺談 golang](https://hsinyu.gitbooks.io/golang_note/content/about_golang.html)
 
 * [Go 语言设计与实现](https://draveness.me/golang/)
+
+## Casino Games Learning Resources
+
+* [Wizard of Odds](https://wizardofodds.com/)
+
+	Mathematically correct strategies and information for casino games
+
+* [SLOT設計王](https://ezslotdesign.com/)
+	
+	老虎機設計與博弈機率計算專業網
 
 ## Other
 
