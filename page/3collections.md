@@ -10,6 +10,10 @@ type: page
 {:toc}
 
 
+## Python Web Framework
+
+* [【Flask 教學】2021 Flask 入門路線圖](https://www.maxlist.xyz/2020/05/01/flask-list/)
+
 ## Docker
 
 * [《Docker —— 從入門到實踐­》正體中文版](https://philipzheng.gitbook.io/docker_practice/)
