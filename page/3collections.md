@@ -14,6 +14,10 @@ type: page
 
 * [【Flask 教學】2021 Flask 入門路線圖](https://www.maxlist.xyz/2020/05/01/flask-list/)
 
+* [Sanic之旅](https://howie6879.gitbooks.io/sanic/content/)
+
+	Sanic類似Flask 但有使用到async/await語法
+
 ## Docker
 
 * [《Docker —— 從入門到實踐­》正體中文版](https://philipzheng.gitbook.io/docker_practice/)
