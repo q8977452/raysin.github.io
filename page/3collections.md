@@ -12,7 +12,9 @@ type: page
 
 ## Python
 
-* [cheatsheet](https://github.com/gto76/python-cheatsheet)
+* [Algorithms](https://github.com/TheAlgorithms/Python)
+
+* [Cheatsheet](https://github.com/gto76/python-cheatsheet)
 
 * [Deep Learning Models](https://github.com/rasbt/deeplearning-models)
 
