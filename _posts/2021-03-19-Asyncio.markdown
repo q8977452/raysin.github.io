@@ -2,8 +2,8 @@
 layout: post
 title:  "並行、平行與異步"
 date:   2021-03-19 12:38:30 +0800
-categories: Data_Science
-tags : Python Data Analysis
+categories: Website
+tags : Python
 mathjax: true
 ---
 * content 
