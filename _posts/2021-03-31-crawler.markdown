@@ -109,9 +109,8 @@ mathjax: true
 	**解決辦法**: 使用time
 	
 	```python
-	
- 	import requests
 	import time
+	import requests
 	url = "http://cid.acad.ncku.edu.tw/files/14-1056-54086,r677-1.php?Lang=zh-tw"
 	contextLi = []
  	i=0
