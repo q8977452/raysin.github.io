@@ -1,6 +1,10 @@
 ---
-layout: post title:  "Crawler Problems"
-date:   2021-03-31 10:31:30 +0800 categories: Website tags : Python mathjax: true
+layout: post 
+title:  "Crawler Problems"
+date:   2021-03-31 10:31:30 +0800 
+categories: Website 
+tags : Python 
+mathjax: true
 ---
 
 * content {:toc} 爬蟲實務上遇到的問題
