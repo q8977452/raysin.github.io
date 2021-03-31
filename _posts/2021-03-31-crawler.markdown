@@ -89,7 +89,6 @@ mathjax: true
    透過F12>Network>目標頁面>Requests Headers找到
    
     **解決辦法**: 使用假header
-   
     ```python
     import requests
 	
@@ -107,7 +106,6 @@ mathjax: true
 2.  一秒太多次requests
 
 	**解決辦法**: 使用time
-	
 	```python
 	import time
 	import requests
