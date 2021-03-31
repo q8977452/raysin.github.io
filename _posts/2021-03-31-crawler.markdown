@@ -103,14 +103,15 @@ mathjax: true
 	print(re.text)
     ```
 
+
 2.  一秒太多次requests
 
 	**解決辦法**: 使用time
 	
 	```python
-	import requests
+	
+ 	import requests
 	import time
- 
 	url = "http://cid.acad.ncku.edu.tw/files/14-1056-54086,r677-1.php?Lang=zh-tw"
 	contextLi = []
  	i=0
