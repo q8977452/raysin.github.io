@@ -1,17 +1,9 @@
 ---
-layout: post
-title:  "Crawler Problems"
-date:   2021-03-31 10:31:30 +0800
-categories: Website
-tags : Python
-mathjax: true
+layout: post title:  "Crawler Problems"
+date:   2021-03-31 10:31:30 +0800 categories: Website tags : Python mathjax: true
 ---
-* content 
-{:toc}
-爬蟲實務上遇到的問題
 
-
-
+* content {:toc} 爬蟲實務上遇到的問題
 
 ## 套件
 
@@ -24,27 +16,24 @@ mathjax: true
 ## 實務問題
 
 ### 1. encoding問題
-如果發現爬下來的的頁面無法解析的話，大部分時候是編碼的問題，
-編碼一般都是用utf8，這個包含的字量比較多，
-例如「喆」在其他編碼中一班會用「吉吉」儲存，
-不過比較老舊的非英文網站，或是政府官方網站，
-如果是中文的話很可能會使用cp950或是big5，
-這個編碼一般都是從html文件中(所有的html文件都有head跟body兩個部分)的head部分找得到，
-按下**F12找到Elements。**
+
+如果發現爬下來的的頁面無法解析的話，大部分時候是編碼的問題， 編碼一般都是用utf8，這個包含的字量比較多， 例如「喆」在其他編碼中一班會用「吉吉」儲存， 不過比較老舊的非英文網站，或是政府官方網站，
+如果是中文的話很可能會使用cp950或是big5， 這個編碼一般都是從html文件中(所有的html文件都有head跟body兩個部分)的head部分找得到， 按下**F12找到Elements。**
 
 * 狀況一
-  
-	爬下來的html檔是亂碼: 
-  		
-	這種狀況可直接設定requests類別實體下的encoding屬性為相對應的編碼
+
+  爬下來的html檔是亂碼:
+
+  這種狀況可直接設定requests類別實體下的encoding屬性為相對應的編碼
 
 * 狀況二
 
-  POST Data是亂碼: 
+  POST Data是亂碼:
   可使用 [webatic](https://www.webatic.com/url-convertor)
-  去解碼，了解這個編碼背後的意思。	
+  去解碼，了解這個編碼背後的意思。
 
 ### 2. 檔案讀寫問題
+
 若不先將html存成純文字檔案，有可能會產生兩個大問題。
 
 * 電腦的記憶體有限且相對不穩定，所以如果把每個頁面都用暫存存起來，可能會產生記憶體不足，或是程式執行出錯時暫存全部被洗掉的問題。
@@ -52,6 +41,7 @@ mathjax: true
 * 如果每次測試解析html之前都要上網站去get一次，量大的話很有可能會被鎖定IP。
 
 解決辦法
+
 * python內建的套件open
 
   ```python
@@ -84,11 +74,12 @@ mathjax: true
   ```
 
 ### 3. 一般網站的防爬蟲機制
+
 1. 直接偵測requests的header
-   
+
    透過F12>Network>目標頁面>Requests Headers找到
-   
-    **解決辦法**: 使用假header
+
+   **解決辦法**: 使用假header
     ```python
     import requests
 	
@@ -103,31 +94,31 @@ mathjax: true
     ```
 
 
-2.  一秒太多次requests
+2. 一秒太多次requests
 
-	**解決辦法**: 使用time
-	```python
-	import time
-	import requests
-	url = "http://cid.acad.ncku.edu.tw/files/14-1056-54086,r677-1.php?Lang=zh-tw"
-	contextLi = []
- 	i=0
-	while i < 10:
-	    re = requests.get(url)
-	    re.encoding = 'utf8'
-	    contextLi.append(re.text)
-	    i += 1
-	    print(i , " succeed")
-	    time.sleep(2) 
-	print("this is the first requests----------------------------------\n", contextLi[0])
-	print("this is the last requests----------------------------------\n",contextLi[-1])
- 	```
+   **解決辦法**: 使用time
+   ```python
+   import time
+   import requests
+   url = "http://cid.acad.ncku.edu.tw/files/14-1056-54086,r677-1.php?Lang=zh-tw"
+   contextLi = []
+    i=0
+   while i < 10:
+       re = requests.get(url)
+       re.encoding = 'utf8'
+       contextLi.append(re.text)
+       i += 1
+       print(i , " succeed")
+       time.sleep(2) 
+   print("this is the first requests----------------------------------\n", contextLi[0])
+   print("this is the last requests----------------------------------\n",contextLi[-1])
+    ```
 
 3. 總共太多次requests，或太規律，鎖IP
 
    **解決辦法**: 換IP
-	
-### 4.  javascript渲染出來的網頁，或不明原因被檔的網頁
+
+### 4. javascript渲染出來的網頁，或不明原因被檔的網頁
 
 selenium使用的過程中要注意的問題:
 
@@ -136,7 +127,7 @@ selenium使用的過程中要注意的問題:
 3. 在對任何元素做動作的時候，最好要設定保護機制，如果元素還沒出來，將無法定位到元素，後面的操作也不會成功
 4. 要取得當前頁面的html，使用的是page_source這個屬性的值
 
-
 ## Reference
+
 * https://ithelp.ithome.com.tw/articles/10191161
 * https://ithelp.ithome.com.tw/articles/10191165
