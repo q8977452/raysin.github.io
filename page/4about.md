@@ -10,9 +10,13 @@ type: page
 {:toc}
 ## **Job Title**
 
-Probability Engineer,Statistianist,Data Analyst
+Python Engineer, Statistianist
 
 ## **Experience**
+* 2020 Dec ~ 2021 Mar
+    * Python Engineer
+        * Locate at Taichung, Taiwan
+
 * 2019 Oct ~ 2020 Sep
 	* Probability Engineer/Data Analyst
 		* Locate at Taichung, Taiwan
@@ -23,8 +27,7 @@ Probability Engineer,Statistianist,Data Analyst
 
 ## **Skill Set**
 
-* Python, R, C++, Matlab
-* Tensorflow, Keras
+* Python, R, Javascript
 * Markdown, Latex
 * Linux
 * Git
