@@ -8,9 +8,10 @@ mathjax: true
 ---
 * content
 {:toc} 
-利用政府開放資料統計台灣男女性癌症關聯分析，
+利用政府開放資料對台灣男女性癌症做關聯分析，
 並練習畫雲林縣地圖。
-主要程式撰寫於[Github:q8977452/taiwan_cancer_analysis](https://github.com/q8977452/taiwan_cancer_analysis)
+
+[Github:q8977452/taiwan_cancer_analysis](https://github.com/q8977452/taiwan_cancer_analysis)
 
 
 
