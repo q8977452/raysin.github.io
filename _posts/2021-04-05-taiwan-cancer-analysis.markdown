@@ -2,7 +2,7 @@
 layout: post 
 title:  "Taiwan Cancer Analysis"
 date:   2021-04-05 22:31:30 +0800 
-categories: Website 
+categories: Data_Science 
 tags : Python 
 mathjax: true
 ---
