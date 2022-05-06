@@ -13,7 +13,7 @@ type: page
 Python Engineer, Statistician
 
 ## **Experience**
-* 2021 JUN ~ Now
+* 2021 Jun ~ Now
     * Junior Software Engineer
         * Locate at Taichung, Taiwan
 
